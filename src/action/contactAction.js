@@ -9,7 +9,7 @@ import {
 import axios from "axios";
 
 export const getContacts = () => (dispatch) => {
-  axios.get("http://jsonplaceholder.typicode.com/users").then((response) =>
+  axios.get("https://jsonplaceholder.typicode.com/users").then((response) =>
     dispatch({
       type: GET_CONTACTS,
       payload: response.data
@@ -19,7 +19,7 @@ export const getContacts = () => (dispatch) => {
 
 export const getContact = (id) => (dispatch) => {
   axios
-    .get(`http://jsonplaceholder.typicode.com/users/${id}`)
+    .get(`https://jsonplaceholder.typicode.com/users/${id}`)
     .then((response) =>
       dispatch({
         type: GET_CONTACT,
@@ -30,7 +30,7 @@ export const getContact = (id) => (dispatch) => {
 
 export const deleteContact = (id) => (dispatch) => {
   axios
-    .delete(`http://jsonplaceholder.typicode.com/users/${id}`)
+    .delete(`https://jsonplaceholder.typicode.com/users/${id}`)
     .then((response) =>
       dispatch({
         type: DELETE_CONTACT,
@@ -41,7 +41,7 @@ export const deleteContact = (id) => (dispatch) => {
 
 export const addContact = (newContact) => (dispatch) => {
   axios
-    .post("http://jsonplaceholder.typicode.com/users", newContact)
+    .post("https://jsonplaceholder.typicode.com/users", newContact)
     .then((response) =>
       dispatch({
         type: ADD_CONTACT,
@@ -52,7 +52,7 @@ export const addContact = (newContact) => (dispatch) => {
 
 export const updateContact = (item) => (dispatch) => {
   axios
-    .put(`http://jsonplaceholder.typicode.com/users/${item.id}`, item)
+    .put(`https://jsonplaceholder.typicode.com/users/${item.id}`, item)
     .then((response) =>
       dispatch({
         type: UPDATE_CONTACT,
