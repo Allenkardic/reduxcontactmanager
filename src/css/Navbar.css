@@ -1,0 +1,78 @@
+.navbar-des {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(32, 35, 42);
+  top: 0;
+  color: whitesmoke;
+  padding: 1rem;
+  font-style: none;
+}
+.navbar-des-ul,
+.navbar-des-li,
+.navbar-des-a {
+  list-style: none;
+  color: whitesmoke;
+  text-decoration: none;
+  display: flex;
+  /* padding-left: 1rem; */
+  padding-right: 1rem;
+  font-style: none;
+}
+
+.navbar-mob {
+  display: none;
+}
+
+/* todolist style */
+
+@media screen and (max-width: 800px) {
+  .navbar-des {
+    display: none;
+  }
+
+  .navbar-des-ul,
+  .navbar-des-li,
+  .navbar-des-a {
+    display: none;
+    text-decoration: none;
+  }
+
+  .navbar-mob {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(32, 35, 42);
+    color: whitesmoke;
+    text-decoration: none;
+  }
+  .navbar-mob-one {
+    color: whitesmoke;
+    padding: 0.5rem;
+    text-decoration: none;
+  }
+
+  .hamburger {
+    float: right;
+  }
+
+  .navbar-mob-two {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .navbar-mob-ul,
+  .navbar-mob-li,
+  .navbar-mob-a {
+    text-decoration: none;
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    text-decoration: none;
+  }
+
+  .navbar-mob-ul .navbar-mob-li :hover {
+    background: red;
+    color: whitesmoke;
+  }
+}
