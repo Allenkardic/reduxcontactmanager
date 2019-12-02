@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/reduxcontactmanager/static/css/main.094e43e2.chunk.css",
+    "main.js": "/reduxcontactmanager/static/js/main.f6cbbac9.chunk.js",
+    "main.js.map": "/reduxcontactmanager/static/js/main.f6cbbac9.chunk.js.map",
+    "runtime-main.js": "/reduxcontactmanager/static/js/runtime-main.3d6de1f2.js",
+    "runtime-main.js.map": "/reduxcontactmanager/static/js/runtime-main.3d6de1f2.js.map",
+    "static/js/2.aaf611f8.chunk.js": "/reduxcontactmanager/static/js/2.aaf611f8.chunk.js",
+    "static/js/2.aaf611f8.chunk.js.map": "/reduxcontactmanager/static/js/2.aaf611f8.chunk.js.map",
+    "index.html": "/reduxcontactmanager/index.html",
+    "precache-manifest.86e16d9c091c15020baf8745ebdc9915.js": "/reduxcontactmanager/precache-manifest.86e16d9c091c15020baf8745ebdc9915.js",
+    "service-worker.js": "/reduxcontactmanager/service-worker.js",
+    "static/css/main.094e43e2.chunk.css.map": "/reduxcontactmanager/static/css/main.094e43e2.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3d6de1f2.js",
+    "static/js/2.aaf611f8.chunk.js",
+    "static/css/main.094e43e2.chunk.css",
+    "static/js/main.f6cbbac9.chunk.js"
+  ]
+}
